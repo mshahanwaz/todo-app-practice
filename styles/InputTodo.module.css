@@ -1,0 +1,15 @@
+.input {
+  width: 100%;
+  outline: none;
+  border: 1px solid grey;
+  box-shadow: 0px 0px 0px grey;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 100ms;
+  display: flex;
+}
+
+.input:focus {
+  box-shadow: 5px 5px 0px grey;
+  border-color: black;
+}
