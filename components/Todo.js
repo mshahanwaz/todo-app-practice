@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/Todo.module.css";
 import { getRandomColor } from "./utils";
 
-function Todo({ todo, setTodos }) {
+export default function Todo({ todo, setTodos }) {
   function handleCheck() {
     setTodos((prevTodos) =>
       prevTodos.map((checkTodo) =>
@@ -44,5 +44,3 @@ function Todo({ todo, setTodos }) {
     </label>
   );
 }
-
-export default Todo;

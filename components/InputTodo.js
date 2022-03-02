@@ -3,7 +3,7 @@ import styles from "../styles/InputTodo.module.css";
 import { v4 as uuidv4 } from "uuid";
 import { getRandomColor } from "./utils";
 
-function InputTodo({ todos, setTodos }) {
+function InputTodo({ setTodos }) {
   const input = useRef(null);
 
   function handleAddTodo(e) {
