@@ -1,1 +1,1 @@
-This is just practice in NEXT.JS :)
+# This is just practice in NEXT.JS :)
